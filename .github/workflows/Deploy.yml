@@ -42,5 +42,6 @@ jobs:
         build_dir: output
         committer_name: saihaj
         commiter_email: saihaj@users.noreply.github.com
+        fqdn: sangat.live
       env:
         GITHUB_PAT: ${{ secrets.deploy_access_token }}
